@@ -1,0 +1,157 @@
+*{
+	margin:	0;
+	padding:0;
+}
+body{
+	background-color: #dedede
+}
+h1{
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px, 0;
+	margin-top: 30px;
+	text-transform: capitalize;
+	color: rgb(100,100,100);
+}
+.container{
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+	position: relative;
+}
+.area-computer{
+	width: 560px;
+	height: 350px;
+	margin: 5px auto;
+	background-color: lightblue;
+	background: linear-gradient(to bottom, rgb(238,108, 215) 0%, rgb(41,184,229) 100%);
+	position: relative;
+	padding-top: 40px;
+	box-sizing: border-box;
+	border-radius: 40px 40px 0 0;
+}
+.musuh{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.teksplayer{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+}
+.area-player{
+	width: 560px;
+	height: 350px;
+	margin: 5px auto;
+	background-color: lightgreen;
+	background: linear-gradient(to bottom, rgb(255,253,77) 0%, rgb(146,232,66) 100%);
+	position: relative;
+	padding-top: 0px;
+	box-sizing: border-box;
+	border-radius: 0 0 40px 40px;
+}
+.krts, .gntg, .btu{
+	color: white;
+	padding-left: 35px;
+	margin-top: 10px;
+	display: block;
+	font-weight: bold;
+	position: relative;
+}
+.scorecom, .scoreplayer{
+	background-color: white;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+.scorecom{
+	left: 82.2%;
+	top: 67.7%;
+	position: absolute;
+	border-radius: 20px 20px 0 0;
+}
+.scoreplayer{
+	left: 5.7%;
+	top: 0;
+	position: absolute;
+	z-index: 2;
+	border-radius: 0 0 20px 20px;
+}
+.skor-computer, .skor-player{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 100px;
+	position: absolute;
+	font-size: 30px;
+}
+.skor-computer{
+	left: 82.2%;
+	top: 71.5%;
+	background-color: white;
+	border-radius: 20px 20px 0 0;
+}
+.skor-player{
+	padding-top: 15px;
+	left: 5.7%;
+	top: 0;
+	background-color: white;
+	border-radius: 0 0 20px 20px;
+}
+.info{
+	width: 150px;
+	height: 60px;
+	border: 5px solid pink;
+	position: absolute;
+	top: 50%;																									
+	left: 50%;
+	margin-top: -30px;
+	margin-left: -75px;
+	background-color: white;
+	border-radius: 40px;
+	text-align: center;
+	color: #f89bb4;
+	font-size: 20px;
+	line-height: 60px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	z-index: 1;
+}
+ul{
+	padding-top: 20px;
+	padding-left: 45px;
+}
+li{
+	display: inline-block;
+	margin: 0 10px;
+}
+img{
+	width: 130px;
+	height: 130px;
+	display: block;
+	margin:auto;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+
+.kertas, .gunting, .batu{
+	transition: .4s;
+	position: relative;
+	top:0;
+	cursor: pointer;
+}
+.kertas:hover, .gunting:hover, .batu:hover{
+	box-shadow: 0 0 10px 5px limegreen;
+}
+.kertas:active, .gunting:active, .batu:active{
+	top: 10px;
+}
+
